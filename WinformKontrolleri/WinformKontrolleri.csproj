@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButtonKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LabelKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,7 +140,9 @@
       <DependentUpon>MetinEditorum.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\LoginUser.cs" />
     <Compile Include="Model\Marka.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="PictureBoxKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +157,9 @@
       <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DateTimeKontrolleri.resx">
       <DependentUpon>DateTimeKontrolleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelKontrolu.resx">
       <DependentUpon>LabelKontrolu.cs</DependentUpon>
