@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tb_userName = new System.Windows.Forms.TextBox();
-            this.tb_password = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn_close = new System.Windows.Forms.Button();
             this.btn_login = new System.Windows.Forms.Button();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tb_password = new System.Windows.Forms.TextBox();
+            this.tb_userName = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,42 +51,20 @@
             this.groupBox1.Controls.Add(this.tb_userName);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(436, 140);
+            this.groupBox1.Size = new System.Drawing.Size(436, 117);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kullanıcı Bilgileri";
             // 
-            // tb_userName
+            // btn_login
             // 
-            this.tb_userName.Location = new System.Drawing.Point(125, 32);
-            this.tb_userName.Name = "tb_userName";
-            this.tb_userName.Size = new System.Drawing.Size(290, 20);
-            this.tb_userName.TabIndex = 0;
-            // 
-            // tb_password
-            // 
-            this.tb_password.Location = new System.Drawing.Point(126, 64);
-            this.tb_password.Name = "tb_password";
-            this.tb_password.Size = new System.Drawing.Size(290, 20);
-            this.tb_password.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Kullanıcı Adı : ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 67);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Şifre : ";
+            this.btn_login.Location = new System.Drawing.Point(216, 95);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(118, 23);
+            this.btn_login.TabIndex = 4;
+            this.btn_login.Text = "Giriş Yap";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // btn_close
             // 
@@ -98,15 +76,37 @@
             this.btn_close.UseVisualStyleBackColor = true;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // btn_login
+            // label2
             // 
-            this.btn_login.Location = new System.Drawing.Point(216, 95);
-            this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(118, 23);
-            this.btn_login.TabIndex = 4;
-            this.btn_login.Text = "Giriş Yap";
-            this.btn_login.UseVisualStyleBackColor = true;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(60, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Şifre : ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Kullanıcı Adı : ";
+            // 
+            // tb_password
+            // 
+            this.tb_password.Location = new System.Drawing.Point(126, 64);
+            this.tb_password.Name = "tb_password";
+            this.tb_password.Size = new System.Drawing.Size(290, 20);
+            this.tb_password.TabIndex = 1;
+            // 
+            // tb_userName
+            // 
+            this.tb_userName.Location = new System.Drawing.Point(125, 32);
+            this.tb_userName.Name = "tb_userName";
+            this.tb_userName.Size = new System.Drawing.Size(290, 20);
+            this.tb_userName.TabIndex = 0;
             // 
             // GirisForm
             // 

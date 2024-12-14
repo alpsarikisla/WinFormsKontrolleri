@@ -18,6 +18,8 @@ namespace WinformKontrolleri
         public GirisForm()
         {
             InitializeComponent();
+            tb_userName.Text = "n.davolio";
+            tb_password.Text = "1234";
         }
 
         private void btn_login_Click(object sender, EventArgs e)

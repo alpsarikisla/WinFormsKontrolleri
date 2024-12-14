@@ -103,6 +103,12 @@
     <Compile Include="GirisForm.Designer.cs">
       <DependentUpon>GirisForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KategoriHizliEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategoriHizliEkleForm.Designer.cs">
+      <DependentUpon>KategoriHizliEkleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LabelKontrolu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,7 @@
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\LoginUser.cs" />
     <Compile Include="Model\Marka.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="PictureBoxKontrolu.cs">
       <SubType>Form</SubType>
@@ -157,6 +164,12 @@
       <DependentUpon>ProgressBarKontrolu.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrunlerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunlerForm.Designer.cs">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GirisForm.resx">
       <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategoriHizliEkleForm.resx">
+      <DependentUpon>KategoriHizliEkleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelKontrolu.resx">
       <DependentUpon>LabelKontrolu.cs</DependentUpon>
@@ -215,6 +231,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UrunlerForm.resx">
+      <DependentUpon>UrunlerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
