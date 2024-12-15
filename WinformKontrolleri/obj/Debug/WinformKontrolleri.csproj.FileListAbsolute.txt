@@ -48,3 +48,5 @@ C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\W
 C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\WinformKontrolleri.GirisForm.resources
 C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\WinformKontrolleri.UrunlerForm.resources
 C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\WinformKontrolleri.KategoriHizliEkleForm.resources
+C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\WinformKontrolleri.FlowLayoutPanelVeUserControl.resources
+C:\Users\Alp\Documents\GitHub\WinFormsKontrolleri\WinformKontrolleri\obj\Debug\WinformKontrolleri.ResimVeIsimControl.resources

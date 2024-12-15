@@ -27,6 +27,7 @@ namespace WinformKontrolleri
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = "INSERT INTO Categories(CategoryName) VALUES(@n)";
                 cmd.Parameters.AddWithValue("@n", tb_isim.Text);
+
                 try
                 {
                     con.Open();
